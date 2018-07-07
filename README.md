@@ -6,6 +6,10 @@ Open Source air quality monitor with ODIN-W262
 
 Works With ARM MBED Os
 
+internal [Daplink Debugger](https://github.com/ARMmbed/mbed-HDK) 
+
+//If you turn sensor on while debugging, make sure that USB port can handle 1A//
+
 PM2.5 + Co2 + TVoc + TH/R Version Now Working / V1.0
 
 
