@@ -30,3 +30,10 @@
 - Each sensor will calibrate itself for GRIMM reference
 - Co2 Sensor has internal ABC( Automatic baseline correction ) Logic, 
     it will work least one week power on
+
+## Contributors
+- HWdev_Bongjin @raymonlabs
+    - Project Master
+    - Schematic Builder
+- R3turn-Dev @return0927
+    - Re-wrote [README.md(This document)](README.md)
