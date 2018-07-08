@@ -1,38 +1,32 @@
 # Color-Wifi
-Open Source air quality monitor with ODIN-W262
-============================================================
 
-[Software Repo](https://github.com/colorful-fish)
-
-Works With ARM MBED Os
-
-internal [Daplink Debugger](https://github.com/ARMmbed/mbed-HDK) 
-
-//If you turn sensor on while debugging, make sure that USB port can handle 1A//
-
-PM2.5 + Co2 + TVoc + TH/R Version Now Working / V1.0
+> Open Source air quality monitor with ODIN-W262
 
 
-# DESIGN TOOL
 
-EDA - Altium Designer V18
+## Specs
+- Supports `PM2.5 + Co2 + TVoc + TH/R`
+- Used `ARM mbed OS`
+- Software : [Github @Colorful-Fish](https://github.com/colorful-fish)
+- Debugger : [Daplink Debugger](https://github.com/ARMmbed/mbed-HDK)
 
-Mech - SolidWorks 2017 / Autocad 2017
+## Used Design Tools
+- EDA
+    - Altium Designer V18
+- Mech
+    - SolidWorks 2017
+    - Autocad 2017
 
+## Sensors
+- Particulate Matter ( PM1.0 / PM2.5 )
+    - WUHAN CUBIC : PM2006
+- Carbon Dioxde
+    - WUHAN CUBIC : CM1106
+- Temp & Humid with Tvoc
+    - Bosch BME680
 
-## SENSOR
-
-particulate matter ( PM1.0 / PM2.5 ) - WUHAN CUBIC : PM2006
-
-Carbon Dioxde - WUHAN CUBIC : CM1106
-
-Temp and Humid with Tvoc - Bosch BME680
-
-
-## LIMITATION
-
-5V 1A USB Adapter Recommend !!
-
-Sensor Will be calibrate for GRIMM reference
-
-Co2 Sensor have internal ABC( Automatic baseline correction ) Logic, it will work least one week power on
+## Warning
+- Recommanded Voltage: `5V 1A`
+- Each sensor will calibrate itself for GRIMM reference
+- Co2 Sensor has internal ABC( Automatic baseline correction ) Logic, 
+    it will work least one week power on
